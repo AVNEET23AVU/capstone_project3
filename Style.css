@@ -1,0 +1,62 @@
+body {
+  background-color: #709de6;
+  color: #333;
+}
+
+header h1 {
+  color: #ff66b2;
+  padding: 20px 0;
+}
+
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ff66b2;
+}
+
+.card:hover {
+  background-color: #ffccdd;
+  cursor: pointer;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+/* Load More Button Styles */
+#load-more {
+    background-color: #ff66b2; /* Pink background color */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover Effect */
+  #load-more:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Active Effect */
+  #load-more:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center alignment for Load More button container */
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
